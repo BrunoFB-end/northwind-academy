@@ -9,7 +9,7 @@ source as (
 renamed as (
 
     select
-        cast(id as int) as categpry_pk
+        cast(id as int) as category_pk
         , cast(categoryname as varchar) as category_name
         , cast(description as varchar) as category_description
 
